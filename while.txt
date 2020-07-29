@@ -1,0 +1,90 @@
+//multiplication table//
+
+var i=1;
+while(i<=2)
+{
+    var j=1;
+    while(j<=10)
+    {
+        console.log(" ",i,j,i*j)
+        j++;
+    }
+    i++;
+}
+
+//sum of digits from 1 to 50 //
+
+var sum = 0;
+var n=1;     
+while(n <= 50)
+{
+    sum +=n;
+    n++;
+}
+console.log("sum ="+sum)
+
+// do while//
+
+var sum = 0;
+var n =1;
+do{
+    sum += n;
+    n++;
+}while(n <= 50);
+console.log("sum = "+sum)
+
+//sum of digits//
+
+var num =123;
+var r=0;
+var sum =0;
+while(num >0)
+{
+    r = num %10;
+    sum = sum +r;
+    num = parseInt(num/10);
+
+}
+console.log("sum :",sum)
+
+// multiplication in reverse order//
+
+var i=1;
+while(i<=2)
+{
+    var j =10;
+    while(j>=1)
+    {
+        console.log(" ",i,j,i*j)
+        j--;
+    }
+    i++;
+}
+
+// patterns//
+
+for(var i =1;i<=3;i++)
+{
+    for(var j =1; j<=i;j++)
+    {
+        console.log(" ",i)
+
+    }
+    console.log(" ")
+}
+//array with for loop //
+
+var fruits=["apple","banana","mango"]
+for(var i = 0;i<fruits.length;i++)
+{
+    console.log(" "+fruits[i])
+}
+
+//array for in loop//
+
+var fruits=["apple","banana","mango"]
+for(var x in fruits)
+{
+    console.log(" "+fruits[x])
+}
+

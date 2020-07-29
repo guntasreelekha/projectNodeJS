@@ -1,0 +1,67 @@
+//Arithmatic operators//
+/*var a =15;
+var b =6;
+var c;
+for(var i = 1; i<=4 ;i++)
+{
+ switch( i )
+ {
+    case 1: var c=a+b;
+             console.log(" output:",+c)
+             break;
+    case 2: var c=a-b;
+             console.log("output:",+c) 
+             break;
+    case 3:var c=a*b;
+           console.log("output:",+c)
+           break;
+    case 4:var c=a%b;
+           console.log("output:",+c)
+           break;
+    case 5:console.log("output is null")
+             break;         
+ }
+}
+
+//  //
+
+for(var i=1;i < 5; i++)
+{
+       var a =5;
+       var b=10;
+       if(a<b)
+       {
+              switch( i )
+              {
+                     case 1:console.log(" first case")
+                            break;
+                     case 2:console.log(" second case")
+                            break;
+                     case 3:console.log("third case")
+                            break;
+                     case 4:console.log("fourth case")
+                            break;
+                     default:console.log("give the correct value")
+              } 
+       }
+       else
+       {
+              console.log("a is greater than b")
+       }
+}*/
+
+var name = " ";
+for (var i=1; i < 4;++i){
+switch(i){
+case 1:
+name = "govardhan"
+break;
+case 2:
+name = "subhashini"
+break;
+case 3:
+name = "jaswanth"
+break;
+case 4:
+name = "sai"
+break;

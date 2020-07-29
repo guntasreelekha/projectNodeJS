@@ -1,0 +1,19 @@
+var a=30;
+var b=40;
+var c=50;
+if(a > b && a > c)
+{
+    console.log("a is biggest ")
+
+}
+else
+{
+  if(b > c && b > a )
+  {
+     console.log(" b is biggest") 
+  }
+  else
+  {
+    console.log(" c is biggest")
+  }
+} 
